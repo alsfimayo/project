@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #f0f0f0;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.header-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+.logo:hover {
+  outline: 2px solid blue;
+  cursor: pointer;
+}
+.navbar-list {
+  display: flex;
+}
+.a-img a {
+  text-decoration: none;
+  padding: 0px 12px;
+  color: #000000;
+  font-size: 16px;
+}
+.a-img :hover {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+}
+.a-img img {
+  display: block;
+  padding-left: 12px;
+}
+
+.login-btn {
+  background-color: #449c45;
+  color: white;
+  padding: 14px 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.login-btn span:hover {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+}
+.login-btn:hover {
+  outline: 2px solid blue;
+}
+
+.hero-section {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.h2-p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 12px;
+}
+.hero-section:hover {
+  border-radius: 0;
+  outline: 2px solid blue;
+}
+.hero-section h2 {
+  color: #000000;
+  font-size: 26px;
+}
+.hero-section p {
+  color: #998e95;
+  font-size: 12px;
+}
+.hero-section-searchbar {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.hero-section-searchbar input {
+  background-color: #f8f8f8f8;
+  border: none;
+  border-radius: 7px;
+  margin: 12px 0px;
+  width: 90%;
+  padding: 16px;
+}
+.search-loc {
+  display: flex;
+  align-items: center;
+}
+.search-loc img {
+  margin-left: -42px;
+}
+.hero-section-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  width: 100%;
+  margin-left: 50px;
+}
+.hero-section-bottom h4 {
+  color: #449c45;
+  font-size: 15px;
+  font-weight: 700;
+}
+.login-btn2 {
+  background-color: #449c45;
+  color: white;
+  padding: 0px 104px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.img-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #449c45;
+  margin-top: 55px;
+}
+.img-text:hover {
+  outline: 2px solid blue;
+}
+.img-text p {
+  color: #ffffff;
+  font-size: 12px;
+}
+.img-text h1 {
+  color: #ffffff;
+}
