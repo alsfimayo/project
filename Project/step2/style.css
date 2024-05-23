@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: #f0f0f0;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+.header-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+.logo:hover {
+  outline: 2px solid blue;
+  cursor: pointer;
+}
+.navbar-list {
+  display: flex;
+}
+.a-img a {
+  text-decoration: none;
+  padding: 0px 12px;
+  color: #000000;
+  font-size: 16px;
+}
+.a-img :hover {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+}
+.rectangle {
+  width: 50%;
+  height: 500px;
+  margin: auto;
+  margin-top: auto;
+  background-color: #ffffff;
+
+  border-radius: 50px;
+  margin-top: 50px;
+}
+
+.rectangle-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 12px;
+}
+
+.a-img img {
+  display: block;
+  padding-left: 12px;
+}
+
+.login-btn {
+  background-color: #449c45;
+  color: white;
+  padding: 14px 60px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.login-btn:hover {
+  outline: 2px solid blue;
+}
+.login-btn span:hover {
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+}
+
+.imgs {
+  display: flex;
+}
+.imgs-1 {
+  align-self: flex-end;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.rectangle-btn {
+  background-color: #449c45;
+  color: white;
+  padding: 14px 88px;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 12px;
+}
+.img-text h1 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.img-text p {
+  color: #998e99;
+  font-size: 12px;
+  font-weight: 400;
+}
+.img-text span {
+  color: #449c45;
+  font-size: 12px;
+  font-weight: 700;
+}
+.img-text span:hover {
+  background-color: #f0f0f0;
+}
+.imgs-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #449c45;
+  margin-top: 55px;
+}
+.imgs-text:hover {
+  outline: 2px solid blue;
+}
+.imgs-text p {
+  color: #ffffff;
+  font-size: 12px;
+}
+.imgs-text h1 {
+  color: #ffffff;
+}
